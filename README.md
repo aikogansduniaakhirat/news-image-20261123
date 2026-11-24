@@ -11,22 +11,26 @@ map with one numbered pin per story, six leads and a strip of further headlines.
 
 | # | Story | Where |
 |---|---|---|
-| 1 | COP31 closes without a final text; ministers trade blame | Antalya, Turkey |
-| 2 | Seoul shares open 2.8% lower as AI-bubble fears spread | Seoul, South Korea |
-| 3 | Kataib Hezbollah commander denies terrorism charges in court | New York, USA |
-| 4 | Supercell storm wipes out Tupancireta; five dead, 250 hurt | Rio Grande do Sul, Brazil |
-| 5 | Cameroon's former rebels say reintegration promises went unmet | Yaounde, Cameroon |
-| 6 | Molly Meldrum, host of *Countdown*, dies aged 83 | Melbourne, Australia |
+| 1 | Nvidia's board reinstates Jensen Huang as chief executive after Trump intervenes | Santa Clara, USA |
+| 2 | Ukrainian naval drones sink a Russian warship off the Libyan coast, Zelensky says | Off Libya |
+| 3 | Moscow accuses Estonia of pushing towards "open war" and summons its envoy | Tallinn, Estonia |
+| 4 | Iran flogs singer Parastoo Ahmadi and four of her team for an unveiled performance | Tehran, Iran |
+| 5 | India pledges $1.6bn of flood relief to Nepal as PM Balendra Shah visits Modi | Kathmandu, Nepal |
+| 6 | Kenya and DR Congo agree to restore full diplomatic relations after a four-year rift | Kinshasa, DR Congo |
 
-Also on the page: Kim Jong Un says Pyongyang seeks no regional dominance ·
-Paolo Bulgari dies at 89 · Poundland days from administration · UK energy bills
-to soar · Alcaraz wins the ATP Finals · Ateez take a fourth US No. 1.
+Also on the page: Megaspeed, the chip firm at the centre of the Nvidia scandal,
+is added to a US trade blacklist · the hacker behind the GTA VI leaks is jailed
+for seven years · Tajikistan moves to leave the ICC · an illegal armed group
+carries out Colombia's first urban drone attack · a court is told former prince
+Andrew was paid £750,000 to help a Turkish heiress with a passport.
 
 Every line above comes from a feed item whose own `pubDate` is 23 November 2026
 in UTC or in the reporting desk's local clock, which the bounty's rules allow.
-The COP31 collapse itself fell on the 22nd, so that card carries the 23rd's
-development — the recriminations between ministers — rather than restating the
-collapse as if it happened that morning.
+Stories first reported on the 22nd are deliberately kept out of the six, even
+where they were still running on the 23rd: the COP31 collapse in Antalya, the
+Democrats' House majority and the first reports of the Indonesian fire were all
+filed on the 22nd, so putting them in the leads would date the page to the wrong
+day. They appear, if at all, only in the strip of further headlines.
 
 ## Run it
 

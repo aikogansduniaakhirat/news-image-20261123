@@ -20,7 +20,9 @@ and clips Antarctica to the sliver visible along the bottom edge.
 
 Every story below was read out of a feed item whose own pubDate is 23 November
 2026 (or a local-clock 23 November report of an event that day); see the
-repository README for the sourcing rule.
+repository README for the sourcing rule.  Items first filed on the 22nd are kept
+out of the six leads on purpose, because a page that leads on yesterday's news
+would date itself to the wrong day.
 """
 
 import json
@@ -56,28 +58,33 @@ DATE = "23 NOVEMBER 2026"
 DAY = "MONDAY"
 
 # (number, longitude, latitude, headline, kicker)
-# Every item is dated 23 November 2026 by its own feed pubDate (UTC or the
-# reporting desk's local clock, which the rules allow).  The COP31 collapse
-# itself happened on the 22nd, so the card carries the 23rd's development --
-# the recriminations between ministers -- and the kicker supplies the context.
+# Every item happened, or was first reported, on 23 November 2026 by its own
+# feed pubDate -- the rule allows either.  Work reported on the 22nd is kept
+# out even where it was still running on the 23rd: the COP31 collapse, the
+# Democrats' House majority and the Indonesian fire's first deaths were all
+# first reported on the 22nd, so they sit in ALSO at most.
+#
+# The six are chosen for spread as much as for weight: North America, Africa,
+# Europe, the Middle East, South Asia and a second African story a continent
+# away from the first, so the map shows a world and not one hemisphere.
 STORIES = [
-    ("1", 30.7, 36.9, "No climate deal; recriminations begin",
-     "ANTALYA \u00b7 First COP without a text since 2009"),
-    ("2", 127.0, 37.5, "Seoul shares dive on AI bubble fears",
-     "SEOUL \u00b7 Kospi falls 2.8% at the open"),
-    ("3", -74.0, 40.7, "Militia chief denies charges in New York",
-     "NEW YORK \u00b7 Kataib Hezbollah commander on trial"),
-    ("4", -53.8, -29.0, "Supercell storm kills five in Brazil",
-     "TUPANCIRETA \u00b7 250 hurt as a town is wiped out"),
-    ("5", 11.5, 3.9, "Cameroon's ex-rebels live in hiding",
-     "YAOUNDE \u00b7 Fears of arrest, promises unmet"),
-    ("6", 145.0, -37.8, "Molly Meldrum, Countdown host, dies at 83",
-     "MELBOURNE \u00b7 Tributes for a music champion"),
+    ("1", -121.95, 37.35, "Nvidia's board brings Jensen Huang back",
+     "SANTA CLARA \u00b7 Trump forced the U-turn"),
+    ("2", 15.0, 33.0, "Ukraine sinks Russian warship off Libya",
+     "OFF LIBYA \u00b7 Zelensky hails an exemplary raid"),
+    ("3", 24.75, 59.4, "Moscow tells Estonia it risks an open war",
+     "TALLINN \u00b7 Russia summons envoy, shuts border"),
+    ("4", 51.4, 35.7, "Iran flogs a singer for singing unveiled",
+     "TEHRAN \u00b7 Parastoo Ahmadi took 74 lashes"),
+    ("5", 85.3, 27.7, "India pledges $1.6bn of flood aid to Nepal",
+     "KATHMANDU \u00b7 Shah's first visit to Modi"),
+    ("6", 15.3, -4.3, "Kenya and DR Congo restore full ties",
+     "KINSHASA \u00b7 Ruto and Tshisekedi end the rift"),
 ]
 
-ALSO = ("Kim says Pyongyang seeks no regional dominance \u00b7 Paolo Bulgari "
-        "dies at 89 \u00b7 Poundland days from administration \u00b7 UK energy bills "
-        "to soar \u00b7 Alcaraz wins the ATP Finals \u00b7 Ateez take a fourth US No. 1")
+ALSO = ("Megaspeed added to a US trade blacklist \u00b7 GTA VI hacker jailed seven "
+        "years \u00b7 Tajikistan moves to leave the ICC \u00b7 Colombia's first urban "
+        "drone attack \u00b7 Andrew paid \u00a3750,000, court told")
 
 
 def font(size, bold=False):
